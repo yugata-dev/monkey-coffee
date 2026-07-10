@@ -16,7 +16,7 @@ function Services() {
           <div className="text-center p-6">
             <div className="text-5xl flex justify-center mb-4">
               <img
-                src="/icon (1).png"
+                src="/Icon (1).png"
                 alt="icon1"
                 className="bg-bg-icon py-4 px-4 rounded-full"
               />
