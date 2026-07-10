@@ -7,8 +7,17 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-sub-background: #F8F7F3;
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-bg-hover: #5b2710;
+  --color-bg-button: #843919;
+  --color-text-hover: #f7f2f0;
+  --color-sub-text: #f2833d;
+  --color-bg-icon: #ebe6e1;
+
+  /* 1. Kita petakan variabel font-serif dari Next.js ke Tailwind */
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +31,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  /* 2. Ubah font-family di sini menggunakan variabel Playfair Display */
+  font-family: var(--font-serif), serif;
 }
