@@ -34,7 +34,7 @@ function Services() {
           <div className="text-center p-6">
             <div className="text-5xl flex justify-center mb-4">
               <img
-                src="/icon (2).png"
+                src="/Icon (2).png"
                 alt="icon1"
                 className="bg-bg-icon py-4 px-4 rounded-full"
               />
@@ -52,7 +52,7 @@ function Services() {
           <div className="text-center p-6">
             <div className="text-5xl flex justify-center mb-4">
               <img
-                src="/icon (3).png"
+                src="/Icon (3).png"
                 alt="icon1"
                 className="bg-bg-icon py-4 px-4 rounded-full"
               />
@@ -69,7 +69,7 @@ function Services() {
           <div className="text-center p-6">
             <div className="text-5xl flex justify-center mb-4">
               <img
-                src="/icon (4).png"
+                src="/Icon (4).png"
                 alt="icon1"
                 className="bg-bg-icon py-4 px-4 rounded-full"
               />
