@@ -111,6 +111,16 @@ monkey-coffee/
 └── README.md               # Documentation
 ```
 
+## 📂 Component Details
+
+- **Navbar**: Navigation header dengan hamburger menu mobile-responsive dan animated transitions
+- **Hero**: Landing section dengan background image dan CTA button
+- **Menus**: Featured coffee products dalam grid layout
+- **Services**: Showcase 4 layanan utama dengan icons
+- **Ambiance**: Section tentang suasana kafe
+- **AboutUs**: Informasi lengkap tentang coffee shop, address, hours, contact
+- **Footer**: Footer dengan menu links dan social media
+
 ---
 
 ## 📱 Responsive Breakpoints
