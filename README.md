@@ -86,17 +86,36 @@ npm run dev
 ```
 monkey-coffee/
 ├── app/
-│   ├── layout.tsx          # Root layout dengan metadata
+│   ├── layout.tsx          # Root layout dengan metadata & fonts
 │   ├── page.tsx            # Landing page utama
-│   ├── globals.css         # Global styles & CSS variables
-│   └── favicon.ico
-├── public/
-│   └── (static assets)
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
+│   └── globals.css         # Global styles & CSS variables
+├── components/             # Reusable React components
+│   ├── Navbar.tsx          # Navigation header
+│   ├── Hero.tsx            # Hero section
+│   ├── Menus.tsx           # Featured coffees section
+│   ├── Services.tsx        # Services showcase
+│   ├── Ambiance.tsx        # Ambiance section
+│   ├── AboutUs.tsx         # About section
+│   └── Footer.tsx          # Footer component
+├── public/                 # Static assets & images
+│   └── (images & files)
+├── .next/                  # Build output (auto-generated)
+├── package.json            # Dependencies
+├── tailwind.config.ts      # Tailwind configuration
+├── tsconfig.json           # TypeScript configuration
+├── next.config.ts          # Next.js configuration
+└── README.md               # Documentation
 ```
+
+## 📂 Component Details
+
+- **Navbar**: Navigation header dengan responsive menu
+- **Hero**: Landing section dengan background image dan CTA button
+- **Menus**: Featured coffee products dalam grid layout
+- **Services**: Showcase 4 layanan utama dengan icons
+- **Ambiance**: Section tentang suasana kafe
+- **AboutUs**: Informasi lengkap tentang coffee shop, address, hours, contact
+- **Footer**: Footer dengan menu links dan social media
 
 ---
 
