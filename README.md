@@ -1,25 +1,3 @@
-# ✅ AMAN BANGET! Perfect!
-
-Tidak ada error merah sama sekali. Cuma info biasa dari Next.js Fast Refresh.
-
----
-
-## **STEP 3: Buat File README.md**
-
-Ini file dokumentasi yang penting untuk HRD!
-
-### 3a. **Buat file baru bernama `README.md`**
-
-Di VS Code:
-
-1. Klik kanan di folder project (di sebelah kiri)
-2. Pilih **"New File"**
-3. Ketik nama: `README.md`
-
----
-
-### 3b. **Copy-Paste kode ini ke dalam file README.md:**
-
 ````markdown
 # Monkey Coffee - Landing Page
 
